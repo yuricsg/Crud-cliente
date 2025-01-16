@@ -8,3 +8,5 @@ INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES ('Manuela'
 INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES ('Caio', '82619103777', 2100.0, '2025-01-01', 1)
 INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES ('Pamela', '11093846299', 2800.0, '2024-09-02', 2)
 INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES ('Sergio', '00112293774', 30000.0, '2025-01-11', 0)
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES ('Paulo', '00112323244', 300.0, '2025-01-12', 0)
+
