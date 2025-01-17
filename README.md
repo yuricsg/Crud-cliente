@@ -15,7 +15,6 @@ Este projeto é uma aplicação **CRUD** (Criar, Ler, Atualizar, Deletar) de cli
 - **Spring Boot**: Framework para desenvolvimento de aplicações Java.
 - **Spring Data JPA**: Implementação de JPA para interação com o banco de dados.
 - **H2 Database**: Banco de dados em memória, utilizado para armazenar os dados.
-- **Jackson**: Biblioteca para conversão entre objetos Java e JSON.
 - **Postman**: Utilizado para testar os endpoints da API.
 
 ## Pré-requisitos
