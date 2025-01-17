@@ -31,3 +31,38 @@ Para começar a trabalhar com este projeto, primeiro clone o repositório para s
 
 ```bash
 git clone https://github.com/SEU_USUARIO/crud-clientes.git
+```
+## 2. Configurando o Projeto
+
+Após clonar o repositório, navegue até a pasta do projeto:
+
+```bash
+cd crud-clientes
+```
+
+## 3. Build do Projeto
+
+Certifique-se de que o Maven está instalado em sua máquina. Caso não tenha o Maven, você pode instalar seguindo as instruções do Maven.
+
+Com o Maven instalado, execute o comando para baixar as dependências e compilar o projeto:
+
+```bash
+mvn clean install
+```
+
+## 4. Testando os Endpoints
+
+Agora, você pode testar os endpoints utilizando uma ferramenta como Postman.
+
+####Endpoints disponíveis:
+POST /clients - Cadastrar um novo cliente.
+
+```json
+{
+  "name": "João Silva",
+  "cpf": "12345678901",
+  "income": 2500.50,
+  "birthDate": "1990-05-10",
+  "children": 2
+}
+```
