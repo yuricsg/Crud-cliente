@@ -54,8 +54,8 @@ mvn clean install
 
 Agora, você pode testar os endpoints utilizando uma ferramenta como Postman.
 
-####Endpoints disponíveis:
-POST /clients - Cadastrar um novo cliente.
+### Endpoints disponíveis:
+#### POST /clients - Cadastrar um novo cliente.
 
 ```json
 {
@@ -66,3 +66,25 @@ POST /clients - Cadastrar um novo cliente.
   "children": 2
 }
 ```
+
+#### GET /clients - Listar todos os clientes (paginado).
+
+Parâmetros de paginação:
+
+- page (número da página, padrão: 0)
+- size (quantidade de itens por página, padrão: 10)
+  
+#### GET /clients/{id} - Consultar um cliente específico pelo ID.
+#### PUT /clients/{id} - Atualizar um cliente.
+
+```json
+{
+  "name": "João Silva",
+  "cpf": "12345678901",
+  "income": 3000.00,
+  "birthDate": "1990-05-10",
+  "children": 3
+}
+```
+#### DELETE /clients/{id} - Deletar um cliente pelo ID.
+
